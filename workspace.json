@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "envelope-login": "apps/envelope-login",
+    "envelope-login-e2e": "apps/envelope-login-e2e"
+  }
+}
