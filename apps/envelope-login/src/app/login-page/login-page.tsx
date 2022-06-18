@@ -11,24 +11,12 @@ import {
   TextField,
   Typography
 } from '@mui/material';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
 import FormGroup from '../form-group/form-group';
+import { theme } from './theme';
+import { ThemeProvider } from '@mui/material/styles';
 
 /* eslint-disable-next-line */
 export interface LoginPageProps {}
-
-const theme = createTheme({
-  palette: {
-    primary: {
-      main: '#2763A4', // blue
-      light: '#F6F9FB',
-      dark: '#67707D'
-    },
-    secondary: {
-      main: '#67707D'
-    }
-  }
-});
 
 export function LoginPage(props: LoginPageProps) {
   return (
